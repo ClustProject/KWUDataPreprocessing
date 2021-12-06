@@ -1,19 +1,19 @@
 clear
 clc
 
-%Datasets
+% Datasets
 num_chf = {'chf01','chf02','chf03','chf05','chf06','chf07','chf08','chf09','chf10','chf11','chf12','chf13','chf14','chf15'};
 num_af = { '04043', '04126', '04746', '04908', '04936', '05091', '05121', '07859', '07879', '07910',  '08378', '08405', '08434', '08455'};
 num_healthy = {'f1o01','f1o03','f1o05','f1o06','f1o07','f1o08','f1o09','f1y01','f1y02','f1y03','f1y04','f1y05','f1y06','f1y07','f1y08','f1y09'};
 
-%Initialize
+% Initialize hyperparameter
 Fs_CHF = 250;
 Fs_AF = 250; 
 Fs_HEALTHY = 250;
 base = 0;
 gain = 200;
 
-%Set location of dataset
+% Set location of dataset
 path_origin = '/Users/youngjunkim/Documents/MATLAB/Entropy';
 path_chf = '/Users/youngjunkim/Documents/MATLAB/Entropy/CHF';
 path_af = '/Users/youngjunkim/Documents/MATLAB/Entropy/AFDB';
